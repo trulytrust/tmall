@@ -87,7 +87,7 @@
     display:block;
     border: 1px solid #cccccc;
 }
-#header-menu .bor:hover .sub-menu:hover a{
+#header-menu .bor:hover .sub-menu:hover li a{
     color: #ff0000;
     text-decoration: underline;
 }
@@ -228,5 +228,111 @@
 }
 #banner .nav .xia .xiao{
     background-color:darkgrey;
+}
+#header-menu .menu li a{
+    color: #000;
+}
+#header-menu .menu .bor2{
+    border:1px solid lightgray;
+    height:222px;
+    width: 130px;
+    display: none;
+    color: #000;
+}
+#header-menu .menu-hd{
+    position: relative;
+}
+#header-menu .menu-hd .bor2{
+    position: absolute;
+}
+#header-menu .menu-hd .bor2 li a{
+    color: #000;
+}
+#header-menu .menu-hd:hover .bor2{
+    display:block;
+}
+#header-menu .menu-hd .bor2 li:hover a{
+    color: red;
+    text-decoration: underline;
+}
+#header-menu .menu .bor3{
+    border: 1px solid lightgray;
+    height:393px;
+    position: absolute;
+    display: none;
+}
+#header-menu .menu .bor3 .class1{
+    border: 1px solid lightgray;
+    height:130px;
+    width:300px;
+}
+#header-menu .menu .bor3 .class2{
+    border: 1px solid lightgray;
+    height:130px;
+    width:230px;
+}
+#header-menu .menu .bor3 .class3{
+    border: 1px solid lightgray;
+    height:130px;
+    width:160px;
+}
+/*#header-menu .menu .bor3 ul{*/
+    /*float: left;*/
+/*}*/
+#header-menu .menu{
+    position: relative;
+}
+#header-menu .menu:hover .bor3{
+    display: block;
+}
+#header-menu .menu:hover .bor3 li a{
+    color: #000000;
+}
+#header-menu .menu .bor3 li:hover a{
+    color:#ff0000;
+    text-decoration:underline;
+}
+#header-menu .menu:hover .bor3 .class1 li{
+    font-size:20px;
+    color: darkorange;
+}
+#header-menu .menu:hover .bor3 .class1 li a{
+    font-size: 12px;
+    /*color: darkorange;*/
+}
+#header-menu .menu .bor3 .class1 li:hover a{
+    color: darkorange;
+}
+#header-menu .menu:hover .bor3 .class2 li{
+    font-size:20px;
+    color:lightblue;
+}
+#header-menu .menu:hover .bor3 .class2 li a {
+    font-size: 12px;
+}
+#header-menu .menu .bor3 .class2 li:hover a{
+    color: lightblue;
+}
+#header-menu .menu:hover .bor3 .class3 li{
+    font-size:20px;
+    color:#000000;
+}
+#header-menu .menu:hover .bor3 .class3 li a {
+    font-size: 12px;
+}
+#header-menu .menu .bor3 .class3 li:hover a{
+    color:#000000;
+}
+#banner .nav .xia .xiao .girl{
+    border:1px solid lightblue;
+    height: 130px;
+    display: none;
+}
+#banner .nav .xia .xiao:hover .girl{
+    display: block;
+    background-color: #ffffff;
+}
+#banner .nav .xia .xiao:hover>a{
+    background-color: #ffffff;
 }
 
