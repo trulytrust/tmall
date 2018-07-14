@@ -1,0 +1,17 @@
+div{
+    height:30px;
+    background:aliceblue
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+.la{
+    float: left;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration:none ;
+}

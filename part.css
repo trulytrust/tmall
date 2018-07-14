@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-color:red;
+    height: 32px;
+    color:lightgray;
+    font-size: 12px;
+    font-weight: 100;/*加粗*/
+}
+#login-contain{
+    float:left;
+    line-height: 28px;/*行高*/
+}
+#login-contain a{
+    padding-left: 10px;
+    color: #fffdef;
+    }
+#login-contain a:hover{
+    color:red;
+}
+#header-menu li{
+    float: right;
+    line-height: 32px;
+    padding-left:20px;
+}
+#header-menu .menu-hd{
+    position: relative;
+    transform-origin: 3px 1.5px;
+}
+#header-menu .menu-hd:hover{
+    background-color: #fff;
+}
+#header-menu .menu-hd:hover::after{
+    transition:transform 0.1s linear;
+    transform:rotate(180deg);
+}
+#header-menu .menu-hd:hover>a{
+    color:red;
+    text-decoration: underline;
+}
+#header-menu .menu{
+      font-size: 12px;
+ }
+#login-contain li a{
+    float:left;
+}
+#header-menu a{
+    color:lightgray;
+    margin-top: 10px;
+}
+#header-menu .menu-hd::after{
+    content:"";
+    width: 0;
+    border: 3px solid transparent;
+    border-top-color: blue;
+    position:absolute;
+    top:16px;
+    right:-9px;
+}
+#header-menu .bor{
+    position: relative;
+}
+#header-menu .bor .sub-menu{
+    position: absolute;
+    width: 100px;
+    height:70px;
+    display:none;
+}
+#header-menu .bor:hover.sub-menu{
+    display:block;
+    border: 1px solid #cccccc;
+}
+#search img{
+    width: 150px;
+    float:left;
+}
+#search-contain{
+    float:left;
+    margin-top: 100px;
+    margin-left: 100px;
+    }
+#search-contain .search-list li{
+    float:left;
+}
+#search-contain .search-input{
+    border:2px solid red;
+    height:36px;
+    width: 530px;
+
+}
+#search-contain .search-input input{
+    height: 36px;
+    width: 380px;
+    border: 0;
+    float: left;
+    outline: none;
+
+}
+#search-contain .search-input button{
+    height: 36px;
+    width: 150px;
+    border: 0;
+    float: left;
+    background-color: red;
+    color:white;
+    font-size: 18px;
+}
+#search-contain .search-input input::placeholder{
+    font-size:18px;
+}
+#search-contain li{
+    padding:0 10px;
+    margin:3px 0;
+}
+#search-contain .search-list .red a{
+    color: red;
+}
+#search-contain .search-list li{
+    border-right:1px solid darkgrey;
+}
+#search-contain .search-list li.last{
+    border-right: 0;
+}
+#search-contain .search-list li.first{
+    padding-left: 0;
+}
+#main-menu img{
+    width: 100px;
+    height:30px;
+    float: left;
+}
+#search{
+    height: 230px;
+}
+#main-menu li{
+    float:left;
+    margin-top: -5px;
+    padding:10px;
+}
+#main-menu{
+    padding-left: 200px;
+    height: 100px;
+}
+#search .search-list li a {
+    color: lightgray;
+}
