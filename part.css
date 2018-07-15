@@ -180,11 +180,14 @@
     padding:10px;
 }
 #main-menu{
-    padding-left:345px;
+    padding-left:398px;
     height: 31px;
 }
 #search .search-list li a {
     color: lightgray;
+}
+#banner{
+    border-top: 2px solid #ff0000;
 }
 #banner li a img{
     width:1230px;
@@ -217,6 +220,7 @@
     height:562px;
     margin-top: -36px;
     padding-top: 5px;
+    /*background:rgba(0 0 0 .1);*/
 }
 #banner .nav .shang{
     background-color: #ff0000;
@@ -227,7 +231,8 @@
     margin:8px;
 }
 #banner .nav .xia .xiao{
-    background-color:darkgrey;
+    /*background-color:lightgray;*/
+    background: rgba(204,204,204,.5);
 }
 #header-menu .menu li a{
     color: #000;
@@ -323,16 +328,32 @@
 #header-menu .menu .bor3 .class3 li:hover a{
     color:#000000;
 }
+#banner .nav .xia .xiao{
+    position: relative;
+}
 #banner .nav .xia .xiao .girl{
-    border:1px solid lightblue;
-    height: 130px;
-    display: none;
+    border:1px solid transparent;
+    height: 159px;
+    width:707px;
+    /*display: none;*/
+    position:absolute;
+    margin-left:211px;
+    margin-top: -10px;
 }
 #banner .nav .xia .xiao:hover .girl{
     display: block;
     background-color: #ffffff;
 }
-#banner .nav .xia .xiao:hover>a{
-    background-color: #ffffff;
+#banner .nav .xia .xiao .girl .girl-xiao{
+    border:1px solid transparent;
+    height:159px;
+    width:586px;
+    margin-left: 120px;
+    margin-top:-30px;
+    float:left;
 }
+#banner .nav .xia .xiao .girl .girl-xiao li{
+    float: left;
+}
+
 
