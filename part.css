@@ -189,10 +189,9 @@
 #banner{
     border-top: 2px solid #ff0000;
 }
-#banner li a img{
+#banner .datu li a img{
     width:1230px;
     display: block;
-    /*width:1230px;*/
     margin: 0 auto;
 }
 #banner .xiao{
@@ -331,29 +330,94 @@
 #banner .nav .xia .xiao{
     position: relative;
 }
-#banner .nav .xia .xiao .girl{
+#banner .nav .xia .xiao .big-border{
     border:1px solid transparent;
-    height: 159px;
-    width:707px;
+    height: 520px;
+    width:852px;
     /*display: none;*/
     position:absolute;
     margin-left:211px;
-    margin-top: -10px;
+    margin-top: -29px;
 }
-#banner .nav .xia .xiao:hover .girl{
+#banner .nav .xia .xiao:hover .big-border{
     display: block;
     background-color: #ffffff;
 }
-#banner .nav .xia .xiao .girl .girl-xiao{
+#banner .nav .xia .xiao .big-border .girl-xiao .c-red a{
+    color:red;
+}
+#banner .nav .xia .xiao:hover,#banner .nav .xia .xiao:hover a{
+    background-color:  white;
+}
+#banner .nav .xia .xiao:hover>i,#banner .nav .xia .xiao:hover>a,#banner .nav .xia .xiao:hover>span{
+    color: red;
+}
+#banner .nav .xia .xiao .big-border .girl-xiao{
     border:1px solid transparent;
-    height:159px;
-    width:586px;
+    height:70px;
+    width:507px;
     margin-left: 120px;
     margin-top:-30px;
     float:left;
 }
-#banner .nav .xia .xiao .girl .girl-xiao li{
+#banner .nav .xia .xiao .big-border .girl-xiao li{
+    line-height: 4px;
+}
+#banner .nav .xia .xiao .big-border .girl-xiao.g2,#banner .nav .xia .xiao .big-border .girl-xiao.g3{
+    height: 70px;
+}
+#banner .nav .xia .xiao .big-border .girl-xiao li{
     float: left;
 }
+#banner .nav .xia .border-left{
+    border:1px solid red;
+    width:643px;
+    height:520px;
+    font-size: 13px;
+}
+/*#banner .nav .xia .xiao .a:hover .border-left div{*/
+    /*display: block;*/
+/*}*/
+#banner .nav .xia .border-left div{
+    margin: 10px;
+}
+#banner .nav .xia .border-left .border-left1{
+    border-bottom: 1px dashed lightblue;
+    height: 87px;
+}
+#banner .nav .xia .border-left .border-left2,#banner .nav .xia .border-left .border-left3,#banner .nav .xia .border-left .border-left4,#banner .nav .xia .border-left .border-left5,#banner .nav .xia .border-left .border-left6,#banner .nav .xia .border-left .border-left7{
+    border-bottom: 1px dashed lightblue;
+    height: 45px;
+}
+#banner .nav .xia .xiao .big-border .border-right .right-pic{
+    float: right;
+    border:1px solid darkred;
+    margin-top: -523px;
+    width:208px;
+    height:520px;
 
+}
+#banner .nav .xia .xiao:hover .big-border .border-right .right-pic{
+    display: block;
+}
+#banner .nav .xia .xiao .big-border{
+    display: none;
+}
+#banner .nav .xia .xiao:hover .big-border{
+    display: block;
+}
+#banner .nav .xia .xiao .big-border .border-right .right-pic img{
+    width: 90px;
+    float: right;
+    margin:2px;
+    height:50px;
+}
+#banner .nav .xia .xiao .big-border .border-right .right-pic .specia-pic img{
+    width: 180px;
+}
+#banner .nav .xia .xiao .big-border .border-right .right-pic li{
+    width: 74px;
+    float: right;
+    height:37px;
+}
 
