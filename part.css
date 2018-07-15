@@ -216,7 +216,7 @@
 }
 #banner .nav .xia{
     border:1px solid transparent;
-    height:562px;
+    height:558px;
     margin-top: -36px;
     padding-top: 5px;
     /*background:rgba(0 0 0 .1);*/
@@ -420,4 +420,54 @@
     float: right;
     height:37px;
 }
-
+#brander ul{
+    float: left;
+    margin: 10px 3px;
+}
+#brander ul .b1 a img{
+    width:234px;
+    height:316px;
+}
+#brander ul .b2 a img{
+    width: 485px;
+    height: 316px;
+}#brander ul .b3 a img{
+    width: 485px;
+     height: 316px;
+ }
+#brander ul .more-pict li{
+    width: 56px;
+    height: 54px;
+}
+#brander ul .more-pict img{
+    width: 15px;
+    height: 15px;
+    /*margin-right: 10px;*/
+}
+#brander ul .more-pic1 img{
+   margin-left: 22px;
+}
+#brander ul .more-pic2 a{
+    margin-left: 167px;
+}
+#brander ul .more-pic3 a{
+    margin-left: 167px;
+}
+/*#brander ul .more-pic span{*/
+    /*padding: 20px 20px;*/
+/*}*/
+#brander ul .more-pic1 span{
+    margin-left: 10px;
+}
+#brander ul .more-pic2 span{
+    margin-left: 10px;
+}
+#brander ul .more-pic3 span{
+    margin-left: 10px;
+}
+/*#brander .goupindong ul{*/
+    /*border: 1px solid blue;*/
+    /*width: 234px;*/
+    /*height:25px;*/
+    /*margin:0 10px;*/
+/*}*/
