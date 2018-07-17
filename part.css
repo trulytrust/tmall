@@ -424,6 +424,13 @@
     float: left;
     margin: 10px 3px;
 }
+#brander .goupindong{
+    flaot:left;
+    /*height: 373px;*/
+}
+#brander{
+    height: 373px;
+}
 #brander ul .b1 a img{
     width:234px;
     height:316px;
@@ -465,9 +472,126 @@
 #brander ul .more-pic3 span{
     margin-left: 10px;
 }
-/*#brander .goupindong ul{*/
-    /*border: 1px solid blue;*/
-    /*width: 234px;*/
-    /*height:25px;*/
-    /*margin:0 10px;*/
+#pic-more span{
+    margin: 0 200px;
+}
+#pic-more .text-left{
+    font-size: ;
+}
+#pic-more .pic-title img{
+    width: 214px;
+    height: 25px;
+}
+#pic-more .pic-title a{
+    font-size:16px;
+    float: right;
+}
+#pic-more .mpic1 img{
+    width: 235px;
+    height: 618px;
+    float: left;
+}
+#pic-more .big-kuai{
+    width: 484px;
+    height: 316px;
+    float:left;
+    border: 2px solid transparent;
+}
+#pic-more .mpic2 img{
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+#pic-more .mpic2 .hh img{
+    width: 23px;
+    height: 23px;
+    float: left;
+    margin: 3px 0 0 6px;
+}
+#pic-more .mpic2 div .aa{
+    font-size: 30px;
+    color:lightgreen;
+}
+#pic-more .mpic2 .la>p{
+    padding:0 10px ;
+    width:222px;
+    height: 57px;
+    font-size:28px;
+    color:blueviolet;
+    float: left;
+    text-align: center;
+    margin-top: 5px;
+}
+#pic-more .mpic2 la{
+    height: 50px;
+    float: left;
+}
+#pic-more .mpic2 div{
+    height: 50px;
+}
+#pic-more .mpic2 .hh{
+    height: 78px;
+    width: 272px;
+    float:left;
+    margin-top: 80px;
+    background-color: lightgray;
+
+}
+#pic-more .mpic3 img{
+    width: 185px;
+    height: 185px;
+    float: left;
+    margin: 25px;
+}
+#pic-more .another1 .mpic3 p{
+    width: 135px;
+    /*height: 40px;*/
+    font-size: 14px;
+    text-align: center;
+    margin-left: 48px;
+}
+#pic-more .big-kuai{
+    width: 478px;
+    height: 300px;
+}
+#pic-more .big-kuai .mpic2 .la p{
+    width: 216px;
+    height:40px;
+    color: #55a532;
+    font-size: 25px;
+    /*margin-left: 10px;*/
+}
+/*#pic-more .mpic2 .la{*/
+    /*width: 200px;*/
 /*}*/
+#pic-more .mpic2 .hh p{
+    margin-left: 47px;
+}
+#pic-more .mpic2 .hh a{
+    height: 50px;
+    width: 50px;
+}
+#pic-more .mpic2 div h6{
+    font-size: 21px;
+    margin: 8px 0 0 12px;
+}
+#pic-more .mpic2 .la1{
+    height: 302px;
+    width: 236px;
+}
+#pic-more .another1{
+    width: 236px;
+    height: 302px;
+    border: 1px solid transparent;
+    float:left;
+}
+#pic-more .another1 .cred{
+    color: red;
+    font-size: 20px;
+}
+#pic-more  .wrapper>div{
+    margin-left: 6px;
+}
+#pic-more .big-kuai .mpic2 .la{
+    background-color: #cccccc;
+}
