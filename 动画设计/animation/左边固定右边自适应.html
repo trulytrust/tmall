@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>foxi</title>
+    <style>
+        .div1{
+            width:1500px;
+            height:800px;
+            background-color: #cccccc;
+            display: flex;
+        }
+        .div2{
+            width: 200px;
+            height: 800px;
+            background-color: #ff0000;
+        }
+        .div3{
+            width:400px;
+            height:800px;
+            background-color: #00f;
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+<div class="div1">
+    <div class="div2">
+    </div>
+    <div class="div3">
+    </div>
+</div>
+</body>
+</html>
+<!--/*首先，div2，div3是div1的子元素.其次，设置display:flex就自动会把第二块图片浮上去，在父元素上设置display:flex.在子元素上设置flex:1(或2 3 4 5).最后，加油，相信你是最棒的*/-->
