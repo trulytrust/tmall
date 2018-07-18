@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动画效果</title>
+    <style>
+        body div:not(.container){
+            border: 1px solid red;
+            height: 400px;
+            width: 400px;
+            text-align: center;
+            /*zzz*/
+            line-height: 390px;
+            font-size: 40px;
+            font-weight: 900;
+            color:firebrick;
+            position: absolute;
+            background:rgba(255,255,255,.7);
+            border-radius: 50px;
+        }
+        body{
+            background-color: #000000;
+            height: 800px;
+            perspective:800px;
+            /*视线距离*/
+        }
+        body .container{
+            margin:100px auto;
+            width: 200px;
+            /*隐藏这个宽就可以飞起来啦*/
+            transform-style: preserve-3d;
+            /*子元素保持3D效果*/
+            animation:xxx 12s linear infinite ;
+        }
+        @keyframes xxx  {
+            from{
+
+            }
+            to{
+                transform: rotateY(360deg);
+            }
+
+        }
+        /*body .container #div1{*/
+            /*transform: translateZ(200px);*/
+        /*}*/
+        /*body .container #div6{*/
+            /*transform:rotateY(180deg) translateZ(200px);*/
+        /*}*/
+        /*body .container #div2{*/
+            /*transform:rotateY(90deg) translateZ(200px);*/
+        /*}*/
+        /*body .container #div4{*/
+            /*transform:rotateY(-90deg) translateZ(200px);*/
+        /*}*/
+        /*body .container #div3{*/
+            /*transform:rotateX(90deg) translateZ(200px);*/
+        /*}*/
+        /*body .container #div5{*/
+            /*transform:rotateX(-90deg) translateZ(200px);*/
+        /*}*/
+        body .container #div7{
+            transform:rotateY(180deg);
+        }
+        body .container #div8{
+            transform:rotateY(90deg)
+        }
+        body .container #div9{
+            transform:rotateY(-180deg)
+        }
+        body .container #div10{
+            transform:rotateY(-90deg)
+        }
+        body .container #div11{
+            transform:rotateY(45deg)
+        }
+        body .container #div12{
+            transform:rotateY(135deg)
+        }
+        body .container #div13{
+            transform:rotateY(-45deg)
+        }
+        body .container #div14{
+            transform:rotateY(-135deg)
+        }
+        #div7 img{
+             display: block;
+             height: 400px;
+             width: 200px;
+            float: left;
+         }
+        #div8 img{
+            display: block;
+            height: 400px;
+            width: 200px;
+            float: left;
+        }
+        #div9 img{
+            display: block;
+            height: 400px;
+            width: 200px;
+            float: left;
+        }
+        #div10 img{
+            display: block;
+            height: 400px;
+            width: 200px;
+            float: left;
+        }
+        #div11 img{
+            display: block;
+            height: 400px;
+            width: 200px;
+            float: left;
+        }
+        #div12 img{
+            display: block;
+            height: 400px;
+            width: 200px;
+            float: left;
+        }
+        #div13 img{
+            display: block;
+            height: 400px;
+            width: 200px;
+            float: left;
+        }
+        #div14 img{
+            display: block;
+            height: 400px;
+            width: 200px;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <!--<div id="div1">-->
+        <!--擦-->
+    <!--</div>-->
+    <!--<div id="div2">-->
+        <!--油-->
+    <!--</div>-->
+    <!--<div id="div3">-->
+        <!--老-->
+    <!--</div>-->
+    <!--<div id="div4">-->
+        <!--浪-->
+    <!--</div>-->
+    <!--<div id="div5">-->
+        <!--公-->
+    <!--</div>-->
+    <!--<div id="div6">-->
+        <!--嘿-->
+    <!--</div>-->
+    <div id="div7">
+        <img src="images/heart.jpg" alt="">
+        <img src="images/forever.jpg" alt="">
+    </div>
+    <div id="div8">
+        <img src="images/every.jpg" alt="">
+        <img src="images/honey1.jpg" alt="">
+    </div>
+    <div id="div9">
+        <img src="images/minute.jpg" alt="">
+        <img src="images/every.jpg" alt="">
+    </div>
+    <div id="div10">
+        <img src="images/love.jpg" alt="">
+        <img src="images/honey3.jpg" alt="">
+    </div>
+    <div id="div11">
+        <img src="images/xin1.jpg" alt="">
+        <img src="images/xin4.jpg" alt="">
+    </div>
+    <div id="div12">
+        <img src="images/xin2.jpg" alt="">
+        <img src="images/xin6.jpg" alt="">
+    </div>
+    <div id="div13">
+        <img src="images/xin3.jpg" alt="">
+        <img src="images/xin8.jpg" alt="">
+    </div>
+    <div id="div14">
+        <img src="images/xin5.jpg" alt="">
+        <img src="images/xin7.jpg" alt="">
+    </div>
+</div>
+</body>
+</html>
